@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/vk810/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/vk810/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-    vendor/lge/vk810/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
+    vendor/lge/vk810/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
     vendor/lge/vk810/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/lge/vk810/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/vk810/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -101,7 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/vk810/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/vk810/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/lge/vk810/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/vk810/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/vk810/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/vk810/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/vk810/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/vk810/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/vk810/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/lge/vk810/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/vk810/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/vk810/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/vk810/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
@@ -139,11 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lge/vk810/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lge/vk810/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/vk810/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/vk810/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/vk810/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -155,11 +152,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/vk810/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/vk810/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/lge/vk810/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/vk810/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/vk810/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/vk810/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lge/vk810/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/vk810/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/vk810/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
